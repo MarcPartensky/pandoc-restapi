@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import request, send_file, render_template
 import pypandoc
-pypandoc.download_pandoc()
 import os
 
 app = Flask(__name__)
