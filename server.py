@@ -39,3 +39,8 @@ def pandoc(output:str):
     response = pypandoc.convert_file(f'files/{f.filename}', output)
     os.remove(f'files/{f.filename}')
     return response
+
+if __name__ == '__main__':
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
