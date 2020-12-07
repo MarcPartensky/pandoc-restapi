@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import request, send_file, render_template, send_from_directory
-import pypandoc
 import os
 import glob
 import shlex
