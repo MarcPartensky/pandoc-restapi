@@ -11,7 +11,6 @@ MarkupSafe==1.1.1
 mccabe==0.6.1
 parso==0.7.1
 pylint==2.6.0
-pypandoc==1.5
 python-dotenv==0.15.0
 six==1.15.0
 toml==0.10.2
