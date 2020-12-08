@@ -9,4 +9,4 @@ Flask for server, bootstrap + dropzone for front, heroku for hosting.
 Also needs buildpacks for heroku for more conversion available with pandoc.
 (Need some tex buildpack)
 
-[demo](https://pandoc-api.herokuapp.com/)
+[![demo](https://media.discordapp.net/attachments/707227543220125757/785813858680963072/Capture_decran_2020-12-08_a_11.22.48_2.png?width=960&height=550)](https://pandoc-api.herokuapp.com/)
