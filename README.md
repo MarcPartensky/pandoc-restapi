@@ -7,5 +7,6 @@ The main purpose of this repository is to be used by my main website as a micro 
 Flask for server, bootstrap + dropzone for front, heroku for hosting.
 
 Also needs buildpacks for heroku for more conversion available with pandoc.
+(Need some tex buildpack)
 
 [demo](https://pandoc-api.herokuapp.com/)
