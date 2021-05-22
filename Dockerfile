@@ -13,4 +13,4 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["gunicorn", "--bind", "pandoc:80", "server:app"]
+ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:80", "server:app"]

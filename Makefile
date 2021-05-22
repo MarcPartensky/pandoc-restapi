@@ -1,7 +1,7 @@
 build:
 	docker build . -t marcpartensky/pandoc-api
 run:
-	docker run -it --name pandoc marcpartensky/pandoc-api
+	docker run --name pandoc marcpartensky/pandoc-api
 	docker rm pandoc
 rm:
 	docker rm pandoc
