@@ -1,6 +1,12 @@
 FROM python:3.8
 
 RUN apt-get update
+RUN apt-get install -y \
+	pandoc \
+	texlive-latex-base \
+	texlive-fonts-recommended \
+	texlive-fonts-extra \
+	texlive-latex-extra
 
 COPY . /app
 WORKDIR /app
