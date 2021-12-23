@@ -1,3 +1,5 @@
+start:
+	pipenv run python server.py
 build:
 	docker build . -t marcpartensky/pandoc-api
 run:
