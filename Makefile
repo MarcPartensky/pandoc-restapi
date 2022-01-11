@@ -1,14 +1,11 @@
 start:
 	pipenv run python server.py
-build:
-	docker build . -t marcpartensky/pandoc-api
-run:
-	docker run --name pandoc marcpartensky/pandoc-api
-	docker rm pandoc
-rm:
-	docker rm pandoc
-prune:
-	docker rm pandoc
-	docker image rm marcpartensky/pandoc-api
+update:
+	pipenv lock --pre --clear
+	pipenv lock -r > requirements.txt
+build: update
+	docker-compose build pandoc-api
+dev: update
+	docker-compose up -d --build pandoc-api
 push:
-	docker push marcpartensky/pandoc-api
+	docker-compose push pandoc-api
