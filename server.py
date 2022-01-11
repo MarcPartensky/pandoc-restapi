@@ -28,6 +28,10 @@ def index():
 def echo(text:str):
     return text
 
+@app.route('/live')
+def healthcheck():
+    return "Ok"
+
 @app.route('/file/<filename>', methods=['GET', 'POST'])
 def file(filename:str):
     filename = urllib.parse.unquote(filename)
