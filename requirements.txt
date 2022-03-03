@@ -5,7 +5,7 @@
 #    pipenv lock --requirements
 #
 
--i https://pypi.org/simple
+-i https://pypi.org/simple/
 astroid==2.4.2
 attrs==18.2.0
 click==7.1.2
@@ -14,7 +14,7 @@ gunicorn==20.0.4
 isort==5.6.4
 itsdangerous==1.1.0
 jedi==0.17.2
-jinja2==2.11.2
+jinja2==2.11.3
 lazy-object-proxy==1.4.3
 markupsafe==1.1.1
 mccabe==0.6.1
