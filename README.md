@@ -1,3 +1,5 @@
+[![Docker](https://github.com/MarcPartensky/pandoc-api/actions/workflows/docker-push.yml/badge.svg)](https://github.com/MarcPartensky/pandoc-api/actions/workflows/docker-push.yml)
+
 # Pandoc-API
 
 Available on [https://pandoc.marcpartensky.com](https://pandoc.marcpartensky.com)
