@@ -28,6 +28,8 @@ jobs:
       with:
         python-version: 3.10.2
         architecture: x64
+    - name: Install pipenv
+      run: pip install pipenv
     - name: Update requirements
       run: make update
     - name: Set up QEMU
